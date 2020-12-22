@@ -1,0 +1,89 @@
+#pricing {
+  text-align: center;
+  padding: 2em 0;
+  background: rgb(255, 255, 255);
+}
+
+#pricing h1,
+h2,
+.tag {
+  font-weight: bold;
+  text-transform: uppercase;
+  font-family: sans-serif;
+}
+
+h5{
+  color: rgb(0,0,0);
+}
+
+#pricing  h1 {
+  font-size: 2.5rem;
+  color: #5cd9fd;
+  margin-bottom: 0.25em;
+  line-height: 1em;
+}
+
+#pricing h2 {
+  color: rgb(0, 0, 0);
+  transition: 0.3s;
+}
+
+#pricing .tag {
+  font-size: 1.3rem;
+  color: #eee;
+  font-weight: normal;
+  margin: 0 0 3em;
+}
+
+#pricing .projContainer {
+  display: inline-block;
+  vertical-align: top;
+  margin-right: -5px;
+  overflow: hidden;
+  position: relative;
+  vertical-align: top;
+  width: 340px;
+  height: 228px;
+  cursor: pointer;
+}
+
+#pricing .projContainer img {
+transition: 0.3s;
+}
+
+#pricing .projContainer:hover img {
+ transform: scale(1.2);
+ -webkit-transform: scale(1.2);
+}
+
+#pricing  .projContainer:hover h2 {
+    padding-top: 10%;
+}
+
+#pricing  .projInfoContainer {
+  position: absolute;
+  background: rgba(255, 255, 255, 0.8);
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  z-index: 3;
+  opacity: 0;
+  transition: 0.2s;
+}
+
+#pricing .projContainer:hover .projInfoContainer {
+  opacity: 1;
+}
+
+#pricing  .projCat {
+  color: #5cd9fd;
+  font-weight: bold;
+}
+
+#pricing .projSpec {
+ color: #aaa;
+ font-family: sans-serif;
+}
+
+
